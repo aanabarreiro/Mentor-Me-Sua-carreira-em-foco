@@ -1,0 +1,143 @@
+/* ======== BASE ======== */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html,body { height: 100%; }
+body {
+  font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: #d9eef4;
+  color: #052746;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.2;
+}
+
+.container {
+  width: 1024px;
+  max-width: calc(100% - 40px);
+  margin: 0 auto;
+  height: 5px;
+}
+
+/* ======== TOPO ======== */
+.topo {
+    background-color: #062d63;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+    align-items: center;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+.header-inner img{
+    height: 4rem;
+}
+
+.menu a {
+    margin-left: 25px;
+    color: #c7d9ff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu .ativo {
+    background-color: #c3e5ef;
+    padding: 8px 18px;
+    border-radius: 25px;
+    color: #062d63;
+}
+
+/* ======== CONTAINER ======== */
+.container {
+    width: 75%;
+    margin: 40px auto;
+}
+
+/* ======== TÍTULOS ======== */
+.nome {
+    background-color: #c0e4f0;
+    width: fit-content;
+    padding: 12px 22px;
+    border-radius: 25px;
+    color: #05335a;
+    font-size: 26px;
+}
+
+.legenda-texto {
+    font-size: 19px;
+    color: #05335a;
+    margin-top: 25px;
+}
+
+/* ======== LAYOUT INTERNO ======== */
+.conteudo {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ======== BARRAS ======== */
+.barras {
+    width: 55%;
+}
+
+.barra-item {
+    margin-bottom: 25px;
+}
+
+.barra-item span {
+    color: #05335a;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.barra {
+    height: 30px;
+    margin-top: 5px;
+    background-color: #031e45;
+    border-radius: 40px;
+    position: relative;
+}
+
+.preenchimento {
+    height: 100%;
+    background-color: #9ad4e4;
+    border-radius: 40px 0 0 40px;
+}
+
+/* Larguras personalizadas */
+.w70 { width: 70%; }
+.w55 { width: 55%; }
+.w40 { width: 40%; }
+.w65 { width: 65%; }
+.w45 { width: 45%; }
+
+/* ======== GRÁFICO ======== */
+.grafico {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo-externo {
+    position: relative;
+}
+
+.pizza {
+    display: block;
+}
+
+.titulo-grafico {
+    /* position: absolute; */
+    top: 110px;
+    left: 55px; 
+    text-align: center;
+    width: 150px;
+    color: #032655;
+    font-weight: bold;
+    font-size: 16px;
+}
